@@ -1,0 +1,144 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 30px !important;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+label {
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 0.5rem;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 0.75rem;
+    transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    background-color: #fff;
+    color: #212529;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+select.form-control {
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23343a40" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+    background-size: 1em;
+    padding-right: 2.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease, background-image 0.3s ease;
+    background-color: #fff;
+    color: #212529;
+}
+
+.btn-primary {
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+#previewPDF {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+#previewPDF h2 {
+    font-size: 1.2rem;
+    margin-top: 0;
+    color: #333;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+/* Paleta de colores inspirada en Discord (modo oscuro) */
+.dark-mode {
+    background-color: #36393f !important;
+    /* Fondo principal de Discord */
+    color: #dcddde !important;
+    /* Texto principal de Discord */
+    border-color: #202225 !important;
+    /* Borde sutil */
+}
+
+.dark-mode-text {
+    color: #dcddde !important;
+}
+
+.dark-mode-border {
+    border-top-color: #202225 !important;
+}
+
+.dark-mode-input {
+    background-color: #40444b !important;
+    /* Fondo de los inputs */
+    color: #b9bbbe !important;
+    /* Texto dentro de los inputs */
+    border-color: #202225 !important;
+}
+
+.dark-mode-input::placeholder {
+    color: #72767d !important;
+    /* Color del placeholder */
+}
+
+.dark-mode select.form-control {
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23b9bbbe" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>') !important;
+    background-color: #40444b !important;
+    color: #b9bbbe !important;
+    border-color: #202225 !important;
+}
+
+.dark-mode-button {
+    background-color: #7289da !important;
+    /* Color primario de los botones de Discord */
+    color: #fff !important;
+    border-color: #7289da !important;
+}
+
+.dark-mode-button:hover {
+    background-color: #677bc4 !important;
+    /* Un tono más oscuro al pasar el ratón */
+    border-color: #677bc4 !important;
+}
