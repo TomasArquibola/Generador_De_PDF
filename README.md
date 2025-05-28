@@ -1,4 +1,4 @@
-# Generador de Certificados Web Personalizable con Modo Oscuro
+# Generador de Certificados Web 
 
 **Crea y descarga certificados de asistencia personalizados directamente desde tu navegador web. Ideal para eventos, cursos y talleres.**
 
